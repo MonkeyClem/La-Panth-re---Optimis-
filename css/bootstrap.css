@@ -1622,7 +1622,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 0 40px
 }
 
 .lead {
@@ -7795,7 +7795,8 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 100px;
 }
 
 .pull-right {

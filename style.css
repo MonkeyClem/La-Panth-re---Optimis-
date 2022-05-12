@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+    font-size: 1em;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -54,6 +58,10 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+#services-description{
+    font-size: 1.5em;
 }
 
 .bg-center,
@@ -309,6 +317,7 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    height: 40px;
 }
 
 .nav-center .navbar-brand img {
@@ -676,9 +685,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -741,6 +748,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -775,7 +783,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
