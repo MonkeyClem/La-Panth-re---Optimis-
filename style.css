@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+    font-size: 1em;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -681,9 +685,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 1em;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
