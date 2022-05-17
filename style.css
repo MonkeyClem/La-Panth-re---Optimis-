@@ -8,19 +8,39 @@ body {
 }
 
 p {
-    font-size: 1em;
+    font-size: 17px;
 }
 
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+}
+
+button:hover{
+    background-color: yellow;
+    color: red;
+}
+button:focus{
+    background-color: yellow;
+    color: red;
+}
+button:focus-visible{
+    background-color: yellow;
+    color: red;
 }
 
 a:hover {
-    text-decoration: none;
-    cursor: pointer;
+    font-size: larger;
+ }
+
+
+a:focus {
+   font-size: larger;
 }
+
+a:focus-visible{
+    font-size: larger;
+ }
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -717,7 +737,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -761,7 +781,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #401;
     padding: 40px 40px 40px 40px;
 }
 
@@ -779,7 +799,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #401;
 }
 
 .tc-white {
@@ -787,12 +807,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #401;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #401!important;
     color: #FFFFFF!important;
 }
 
@@ -805,11 +825,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #401!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #401!important;
 }
 
 .icon-dark-slate-blue {
