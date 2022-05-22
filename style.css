@@ -17,22 +17,21 @@ button {
 }
 
 button:hover{
-    background-color: yellow;
-    color: red;
+    background-color: #401;
+    color: white;
 }
 button:focus{
-    background-color: yellow;
-    color: red;
+    background-color: #401;
+    color: white;
 }
 button:focus-visible{
-    background-color: yellow;
-    color: red;
+    background-color: #401;
+    color: white;
 }
 
 a:hover {
     font-size: larger;
  }
-
 
 a:focus {
    font-size: larger;
