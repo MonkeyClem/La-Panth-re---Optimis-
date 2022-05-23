@@ -211,14 +211,9 @@
     color: #fff
 }
 
-
-
-
-
 .fa-facebook-square:before {
     content: "\f082"
 }
-
 
 .fa-twitter:before {
     content: "\f099"
@@ -229,18 +224,13 @@
     content: "\f09a"
 }
 
-
 .fa-instagram:before {
     content: "\f16d"
 }
 
-
-
 .fa-dribbble:before {
     content: "\f17d"
 }
-
-
 
 .sr-only {
     position: absolute;
