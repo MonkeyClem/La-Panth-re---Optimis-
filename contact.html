@@ -15,11 +15,11 @@
 		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
 	
-		<script src="./js/jquery-2.1.0.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/blocs.js"></script>
-		<script src="./js/jquery.touchSwipe.js" defer></script>
-		<script src="./js/gmaps.js"></script>
+			<script defer src="./js/jquery-2.1.0.js"></script>
+	<script defer src="./js/bootstrap.js"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="./js/jquery.touchSwipe.js"></script>
+	<script defer src="./js/gmaps.js" ></script>
 	
     <title>La Panthère - Contact</title>
 
@@ -88,10 +88,10 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label id="your-name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input name="Nom" class="form-control" required aria-labelledby="your-name"/>
 					</div>
 					<div class="form-group">
 						<label>
@@ -100,15 +100,15 @@
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="how-you-know">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="text" required id="input_504" />
+						<input class="form-control" type="text" required id="input_504" aria-labelledby="how-you-know"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="briefing">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required aria-labelledby="briefing"></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
